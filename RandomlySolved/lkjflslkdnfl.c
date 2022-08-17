@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+
+int p=printf("121a");
+printf("%d",p);
+return 0;
+
+}
