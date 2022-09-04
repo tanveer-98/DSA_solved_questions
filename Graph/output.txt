@@ -1,9 +1,1 @@
-TOTAL STRONGLY CONNECTED COMPONENTS
-4
-COMPONENT GROUPS
-Component No : 1
-5 
-Component No : 2
-4 
-Component No : 3
-2 3 1 
+NON - BIPARTITE GRAPH

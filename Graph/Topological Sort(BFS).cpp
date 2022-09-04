@@ -42,10 +42,10 @@ void toposortBFS(int n, vector<int> &idegree) {
 		ans.pb(front);
 		q.pop();
 
-		for (int i = 0; i < adj[front].size(); i++) {
-			idegree[adj[front][i]]--;
-			if (idegree[adj[front][i]] == 0) {
-				q.push(adj[front][i]);
+		for (auto &child : adj[front]) {
+			idegree[child]--;
+			if (idegree[child] == 0) {
+				q.push(child);
 			}
 
 		}

@@ -5,5 +5,6 @@
 
 	https://www.youtube.com/watch?v=Kptz-NVA2RE
 
-
+	Usage :
+	Kruskals algorithm
 */

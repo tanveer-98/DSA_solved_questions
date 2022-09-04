@@ -20,10 +20,9 @@ const int mod = 1e7;
 using namespace std;
 veci adj[100];
 veci adj_rev[100];
-vecb visited;
-veci ans;
-stack<int> lastFinished;
-map<int, vector<int> > components;
+vecb visited; O(N)
+stack<int> lastFinished; O(n)
+map<int, vector<int> > components; // O(n)
 void toposort(int start) {
 	visited[start]  = true;
 	for (int & child : adj[start]) {
@@ -100,3 +99,5 @@ int main()
 	}
 	return 0;
 }
+
+// Time complexity: O(V+E)
